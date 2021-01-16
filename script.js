@@ -2,18 +2,16 @@ const jokeEle = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
 const title = document.getElementById('title')
 
-jokeBtn.addEventListener('click', generateJoke)
+jokeBtn.addEventListener('click', generateJoke, toggleTitle)
 
 generateJoke()
 // toggleTitle()
 
-// function toggleTitle() {
-//   if (title.innerHTML === 'Go through these jokes until you laugh 😊') {
-//     title.innerHTML = '笑ってはいけない英語学習'
-//   } else {
-//     title.innerHTML = 'Go through these jokes until you laugh 😊'
-//   }
-// }
+function toggleTitle() {
+  title.innerHTML === 'Can you laugh?'
+    ? 'Go through these jokes until you laugh'
+    : 'Can you laugh?'
+}
 
 async function generateJoke() {
   const config = {
