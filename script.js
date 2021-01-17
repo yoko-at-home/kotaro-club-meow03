@@ -4,7 +4,7 @@ window.addEventListener('keydown', (event) => {
   insert.innerHTML = `
     <div class="key">
       ${event.key === '' ? 'Space' : event.key}
-      <small>event.keyCode</small>
+      <small>event.key</small>
     </div>
     <div class="key">
       ${event.keyCode}

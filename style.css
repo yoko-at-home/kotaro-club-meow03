@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulidsplay:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
   box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
   text-align: center;
   height: 100vh;
   overflow:hidden;
-  margin: 1rem;
+  margin: 0;
 }
 
 .neumorphism-3 {
@@ -40,11 +40,13 @@ body {
 }
 
 .main_key{
-background-color: #eee;
+background: #dee1e7;
 box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
 border-radius: 5px;
 display: inline-flex;
 align-items: center;
+color:rgb(77, 75, 75);
+text-shadow: 0 0 5px #fcfbf9,  0 0 60px #c7c6c6, 0 0 10px #d8d7d7, 0 0 98px #c7c6c6;
 font-size: 1.5rem;
 font-weight: 500;
 padding:1rem;
@@ -60,22 +62,22 @@ inset 3px 3px 5px rgba(94, 104, 121, 0.692);
 border-radius: 5px;
 display: inline-flex;
 align-items: center;
-font-size: 1.5rem;
+font-size: 18px;
 font-weight: 500;
-padding:1rem;
+padding:20px;
 flex-direction: column;
-margin:1rem;
+margin:10px;
 min-width: 150px;
 position:relative;
 }
 .key small{
   position: absolute;
-  top:-2rem;
+  top:-24px;
   left: 0;
   text-align: center;
   width: 100%;
   color:rgb(211, 208, 208);
-  font-size:1rem;
+  font-size:14px;
 }
 
 /* tablet */
